@@ -1,0 +1,37 @@
+$padding: 5px;
+$maincolor: #e3f2fd;
+$highlight-color: #88c8f7;
+
+#color {
+    background-color: $maincolor;
+}
+
+html {
+  font-family: 13px arial, "맑은 고딕", 함초롬돋움, 굴림;
+}
+
+.logo {
+  height: 50px;
+}
+
+.head {
+  height: 5em;
+  background-image: url("matrix.jpg");
+  align-content: center;
+  padding: $padding;
+  background-color: black;
+  color: whitesmoke;
+}
+
+.paragraph {
+    background-color: $maincolor;
+    padding-left: 21px;
+}
+
+.link {
+    color: black;
+}
+
+.link:hover {
+    color: $highlight-color;
+}

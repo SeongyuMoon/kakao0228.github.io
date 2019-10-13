@@ -1,0 +1,25 @@
+@charset "UTF-8";
+html {
+  font-family: 13px arial, "맑은 고딕", 함초롬돋움, 굴림; }
+
+.logo {
+  height: 50px; }
+
+.head {
+  height: 5em;
+  background-image: url("matrix.jpg");
+  align-content: center;
+  padding: 5px;
+  background-color: black;
+  color: whitesmoke; }
+
+.paragraph {
+  background-color: #e3f2fd;
+  padding-left: 21px; }
+
+#educational-item {
+  background-color: #e3f2fd;
+  color: black; }
+
+#educational-item:hover {
+  background-color: #b7defa; }
